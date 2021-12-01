@@ -1,3 +1,75 @@
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
 body {
     margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+.navbar {
+    padding: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.050);
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+.logo-text {
+    margin-left: 6px;
+    font-family: "Ubuntu-Light";
+    font-size: 34px;
+    text-decoration: none;
+    color: #303030;
+}
+.logo-text:hover {
+    color: black;
+}
+.nav-box {
+    align-items: center;
+    display: flex;
+}
+.nav-link {
+    text-decoration: none;
+    color: #5a5a5a;
+    background-color: white;
+}
+.nav-link-title {
+    font-family: "Ubuntu-Medium";
+    font-size: 15px;
+}
+.nav-link-text {
+    font-family: "Ubuntu-Light";
+    font-size: 12px;
+}
+.active, .nav-link:hover {
+    background-color: #f4f4f4;
+    color: black;
+}
+.search-input {
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px 15px;
+    border: 1px solid #cfcfcf;
+}
+.search-btn {
+    margin-left: -6px;
+    border: 1px solid #cfcfcf;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px 15px;
+    background-color: #5db2d2;
 }

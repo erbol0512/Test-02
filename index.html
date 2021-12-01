@@ -11,7 +11,93 @@
 </head>
 
 <body>
-    
+
+    <nav class="navbar">
+        <div class="logo-box">
+            <img src="img/logo.png" alt="" class="logo-img">
+            <a href="index.html" class="logo-text">diliges</a>
+        </div>
+
+        <div id="myDIV" class="nav-box">
+            <a href="#" class="nav-link active">
+                <h1 class="nav-link-title">Home</h1>
+                <p class="nav-link-text">Welcome!</p>
+            </a>
+
+            <a href="#" class="nav-link">
+                <h1 class="nav-link-title">Applications</h1>
+                <p class="nav-link-text">Our Services</p>
+            </a>
+
+            <a href="#" class="nav-link">
+                <h1 class="nav-link-title">News</h1>
+                <p class="nav-link-text">From Blog</p>
+            </a>
+
+            <!-- <a href="#" class="nav-link">
+                <h1 class="nav-link-title">Drops</h1>
+                <p class="nav-link-text">Menu Style</p>
+            </a> -->
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">
+                        <h1 class="nav-link-title">Drops</h1>
+                        <p class="nav-link-text">Menu Style</p>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Image Gallery</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                        <li><a class="dropdown-item" href="#">Statistics</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a href="#" class="nav-link">
+                <h1 class="nav-link-title">Contact</h1>
+                <p class="nav-link-text">Get in Touch</p>
+            </a>
+        </div>
+        
+
+        <div class="search-box">
+            <form class="search-form">
+                <input class="search-input" type="search" placeholder="Search...">
+
+                <button class="search-btn" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </nav>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+        <script>
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("myDIV");
+            var btns = header.getElementsByClassName("nav-link");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+              });
+            }
+            </script>
 </body>
 
 </html>

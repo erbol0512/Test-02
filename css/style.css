@@ -95,22 +95,9 @@ body {
 .section-icons {
     text-align: center;
 }
-.section-img-01, .section-img-02, .section-img-03 {
+.section-img {
     margin-top: -900px;
-    border: 1px solid #3392b5;
-    border-radius: 10px;
-    padding: 20px;
-}
-.section-img-01 {
-    background-color: #3e9dbf;
-}
-.section-img-02 {
-    padding: 16px 20px;
-    background-color: #41bbc6;
-}
-.section-img-03 {
-    padding: 22px 20px;
-    background-color: #e18470;
+    
 }
 .plus {
     margin-top: -900px;
@@ -186,12 +173,20 @@ body {
 }
 
 
+
+.article {
+
+    background-color: white;
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .section-title {
-        font-size: 30px;
+        font-size: 60px;
     }
     .section-text {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -209,5 +204,11 @@ body {
     }
     .card-text {
         font-size: 10px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .section-text {
+        font-size: 12px;
     }
 }

@@ -73,3 +73,141 @@ body {
     padding: 10px 15px;
     background-color: #5db2d2;
 }
+
+
+.section {
+    padding: 0px 150px;
+}
+.carousel {
+    margin: auto;
+    margin-top: 40px;
+}
+.carousel-control-prev-icon {
+    border: 1px solid #3c97b8;
+    border-radius: 5px;
+    background-color: #41a3c7;
+}
+.carousel-control-next-icon {
+    border: 1px solid #3c97b8;
+    border-radius: 5px;
+    background-color: #41a3c7;
+}
+.section-icons {
+    text-align: center;
+}
+.section-img-01, .section-img-02, .section-img-03 {
+    margin-top: -900px;
+    border: 1px solid #3392b5;
+    border-radius: 10px;
+    padding: 20px;
+}
+.section-img-01 {
+    background-color: #3e9dbf;
+}
+.section-img-02 {
+    padding: 16px 20px;
+    background-color: #41bbc6;
+}
+.section-img-03 {
+    padding: 22px 20px;
+    background-color: #e18470;
+}
+.plus {
+    margin-top: -900px;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.1);
+    font-family: "Ubuntu-Light";
+    font-size: 54px;
+}
+.section-text {
+    color: black;
+    font-family: "Ubuntu-Light";
+}
+.section-button-box {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+}
+.section-btn-text {
+    font-family: "Ubuntu-Medium";
+    padding: 8px 15px;
+    background-color: #66bcdc;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #5aa5c1;
+}
+.section-btn {
+    color: white;
+    padding: 8px 15px;
+    background-color: #4198c0;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #438eb1;
+    height: 42px;
+}
+.main-name-text {
+    font-family: "Ubuntu-Light";
+    font-size: 42px;
+    text-align: center;
+}
+.second-block {
+    justify-content: space-between;
+    display: flex;
+}
+.card {
+    margin-left: 20px;
+}
+.fru {
+    margin-left: 0;
+}
+.card-body {
+    text-align: center;
+}
+.card-mini-btns {
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+.camera {
+    margin-right: 10px;
+    background-color: #ac80d6;
+    border: 1px solid #9b73c1;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50px;
+}
+.arrow {
+    background-color: #67bddd;
+    border: 1px solid #5daac7;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .section-title {
+        font-size: 30px;
+    }
+    .section-text {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+        text-align: center;
+        display: grid;
+        padding: 10px 0px 20px 0px;
+    }
+    .logo-box {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+    .card-text {
+        font-size: 10px;
+    }
+}

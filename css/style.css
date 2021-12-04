@@ -75,6 +75,8 @@ body {
 }
 
 
+
+
 .section {
     padding: 0px 150px;
 }
@@ -133,7 +135,7 @@ body {
     border: 1px solid #438eb1;
     height: 42px;
 }
-.main-name-text {
+.main-name-text, .article-main-text {
     font-family: "Ubuntu-Light";
     font-size: 42px;
     text-align: center;
@@ -150,6 +152,9 @@ body {
 }
 .card-body {
     text-align: center;
+}
+.card-text {
+    color: #8c8c8c;
 }
 .card-mini-btns {
     justify-content: center;
@@ -174,10 +179,47 @@ body {
 
 
 
-.article {
 
+.article {
+    padding: 20px 0px;
+    margin-top: 20px;
     background-color: white;
 }
+.features-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+}
+.features-card {
+    padding: 20px;
+    width: 355px;
+    display: flex;
+}
+.features-txt-box {
+    margin-left: 20px;
+}
+.features-title {
+    font-family: "Ubuntu-Medium";
+    font-size: 18px;
+}
+.features-text {
+    padding: 0px 20px 0px 0px;
+    border-right: 1px solid rgb(192, 192, 192);
+    font-family: "Ubuntu";
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.features-btn {
+    color: white;
+    font-size: 12px;
+    font-family: "Ubuntu-Medium";
+    padding: 8px 15px;
+    background-color: #51a7c7;
+    border-radius: 5px;
+    border: 1px solid #488399;
+}
+
+
 
 
 
@@ -210,5 +252,20 @@ body {
     }
     .section-text {
         font-size: 12px;
+    }
+    .features-container {
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+    }
+    .features-text {
+        border-right: none;
+    }
+    .second-block {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card {
+        margin-left: 0px;
     }
 }

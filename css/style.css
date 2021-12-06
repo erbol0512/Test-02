@@ -223,7 +223,40 @@ body {
 
 
 
+
+.article-1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.nav-tabs {
+    font-family: "Ubuntu-Medium";
+}
+.title-article-1 {
+    font-size: 24px;
+}
+.text-article-1 {
+    margin-top: -10px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 1024px) {
+    .features-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+    }
+    .nonch {
+        border-right: none;
+    }
+    .article-1 {
+        display: grid;
+    }
+    .article-1-right {
+        margin-top: 30px;
+    }
     .section-title {
         font-size: 60px;
     }
@@ -262,10 +295,33 @@ body {
     }
     .second-block {
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         gap: 20px;
     }
     .card {
         margin-left: 0px;
     }
+}
+@media screen and (max-width: 425px) {
+    .section {
+        padding: 0px 20px;
+    }
+    .carousel {
+        display: none;
+    }
+    .main-name-text {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .second-block {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        gap: 20px;
+    }
+    .features-img-box-a {
+        display: none;
+    }
+    
 }

@@ -230,6 +230,12 @@ body {
     justify-content: center;
     margin-bottom: 100px;
 }
+.tabs-contents {
+    width: 40rem;
+}
+.tab-content {
+    width: 40rem;
+}
 .nav-tabs {
     font-family: "Ubuntu-Medium";
 }
@@ -316,12 +322,18 @@ body {
     }
     .second-block {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        gap: 20px;
+        grid-template-columns: repeat(1, 290px);
     }
     .features-img-box-a {
         display: none;
     }
-    
+    .tabs-contents {
+        width: 26rem;
+    }
+    .tab-content {
+        width: 26rem;
+    }
+    .features-img {
+        display: none;
+    }
 }

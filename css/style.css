@@ -120,14 +120,15 @@ body {
     display: flex;
     align-self: center;
 }
-.section-btn-text {
+.section-btn-text, .form-btn-text {
+    color: white;
     font-family: "Ubuntu-Medium";
     padding: 8px 15px;
     background-color: #66bcdc;
     border-radius: 5px 0px 0px 5px;
     border: 1px solid #5aa5c1;
 }
-.section-btn {
+.section-btn, .form-btn {
     color: white;
     padding: 8px 15px;
     background-color: #4198c0;
@@ -146,6 +147,8 @@ body {
 }
 .card {
     margin-left: 20px;
+    box-shadow: 0px 3px 0px rgb(224, 224, 224);
+
 }
 .fru {
     margin-left: 0;
@@ -184,6 +187,7 @@ body {
     padding: 20px 0px;
     margin-top: 20px;
     background-color: white;
+    box-shadow: 0px 3px 0px rgb(224, 224, 224);
 }
 .features-container {
     justify-content: center;
@@ -247,6 +251,80 @@ body {
     color: #8c8c8c;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+.top-foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 350px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 3px 0px rgb(224, 224, 224);
+}
+.top-foot-img-box {
+    display: flex;
+    align-items: center;
+}
+.top-foot-img-name {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #a0a0a0;
+}
+.contact-inf {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.phone-box, .address-box {
+    margin-top: 20px;
+}
+.mail-name {
+    margin-left: 10px;
+    color: #65bbdb;
+    font-size: 19px;
+}
+.phone-name, .address-name {
+    margin-left: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #444444;
+}
+.foot-form {
+    display: grid;
+}
+.name, .message {
+    width: 300px;
+    padding: 8px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+}
+.message {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 110px;
+}
+.form-button-box {
+    display: flex;
+    align-self: center;
+}
+.form-btn-text {
+    font-size: 13px;
+}
+.form-btn {
+    font-size: 13px;
+    height: 37px;
+}
+
+
+
+
 
 @media screen and (max-width: 1024px) {
     .features-container {

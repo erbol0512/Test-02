@@ -270,7 +270,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 350px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(233, 233, 233);
     box-shadow: 0px 3px 0px rgb(224, 224, 224);
 }
 .top-foot-img-box {
@@ -326,12 +326,69 @@ body {
     font-size: 13px;
     height: 37px;
 }
+.bottom-foot {
+    align-items: center;
+    padding: 20px 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-foot-01, .foot-02-link {
+    padding: 5px 20px;
+    border-right: 1px solid rgb(165, 165, 165);
+    color: #787878;
+    text-decoration: none;
+    transition: .3s;
+}
+.bottom-foot-01 {
+    font-size: 13px;
+}
+.foot-02-link {
+    font-size: 15px;
+    font-family: "Ubuntu-Medium";
+    color: #444444;
+}
+.foot-03-img-link {
+    text-decoration: none;
+}
+.img-03 {
+    transition: .4s;
+}
+.img-03:hover {
+    box-shadow: 0px 2px 10px gray;
+}
+.bottom-04-title {
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #5aa5c1;
+    padding: 7px 10px;
+    color: white;
+    background-color: #5eb4d4;
+    font-size: 18px;
+    transition: .4s;
+}
+.bottom-04-title:hover {
+    color: white;
+    box-shadow: 0px 2px 10px gray;
+}
 
 
 
 
-
+@media screen and (max-width: 1440px) {
+    .top-foot {
+        padding: 20px 250px;
+    }
+    .bottom-foot {
+        padding: 20px 250px;
+    }
+}
 @media screen and (max-width: 1024px) {
+    .bottom-foot {
+        padding: 20px 100px;
+    }
+    .top-foot {
+        padding: 20px 100px;
+    }
     .features-container {
         justify-content: center;
         display: grid;
@@ -354,6 +411,15 @@ body {
     }
 }
 @media screen and (max-width: 768px) {
+    .top-foot {
+        padding: 20px 50px;
+    }
+    .bottom-foot {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        text-align: center;
+    }
     .navbar {
         text-align: center;
         display: grid;
@@ -393,6 +459,18 @@ body {
     }
 }
 @media screen and (max-width: 425px) {
+    .top-foot {
+        display: block;
+    }
+    .bottom-foot {
+        padding: 20px 0px;
+    }
+    .foot-02-link {
+    padding: 5px 10px;
+    }
+    .top-right-foot {
+        margin-bottom: 50px;
+    }
     .section {
         padding: 0px 20px;
     }

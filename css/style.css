@@ -135,6 +135,10 @@ body {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #438eb1;
     height: 42px;
+    transition: .4s;
+}
+.section-btn:hover, .form-btn:hover {
+    background-color: #4386a5;
 }
 .main-name-text, .article-main-text {
     font-family: "Ubuntu-Light";
@@ -221,6 +225,10 @@ body {
     background-color: #51a7c7;
     border-radius: 5px;
     border: 1px solid #488399;
+    transition: .3s;
+}
+.features-btn:hover {
+    background-color: #337f9b;
 }
 
 
@@ -251,9 +259,6 @@ body {
     color: #8c8c8c;
     font-size: 14px;
 }
-
-
-
 
 
 

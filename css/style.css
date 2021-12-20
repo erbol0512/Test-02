@@ -72,6 +72,7 @@ body {
     border-radius: 0px 5px 5px 0px;
     padding: 10px 15px;
     background-color: #5db2d2;
+    transition: .4s;
 }
 
 
@@ -137,7 +138,7 @@ body {
     height: 42px;
     transition: .4s;
 }
-.section-btn:hover, .form-btn:hover {
+.section-btn:hover, .form-btn:hover, .search-btn:hover {
     background-color: #4386a5;
 }
 .main-name-text, .article-main-text {
@@ -278,6 +279,7 @@ body {
     align-items: center;
 }
 .top-foot-img-name {
+    margin-left: 10px;
     margin-top: 10px;
     font-size: 26px;
     color: #a0a0a0;

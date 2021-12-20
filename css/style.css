@@ -376,6 +376,37 @@ body {
 
 
 
+
+
+.article-vertical {
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.features-card-01 {
+    padding: 15px 5px;
+    display: flex;
+}
+.features-title-01 {
+    font-family: "Ubuntu-Light";
+    font-size: 36px;
+    color: #444444;
+    margin-bottom: -3px;
+  }
+.features-title-txt {
+    font-size: 18px;
+      text-decoration: none;
+      color: #6c7581;
+  }
+.features-img-01 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 1440px) {
     .top-foot {
         padding: 20px 250px;
@@ -458,6 +489,15 @@ body {
     }
     .card {
         margin-left: 0px;
+    }
+    .features-img-01 {
+        display: none;
+    }
+    .features-card-01 {
+        width: 200px;
+    }
+    .col-lg-4 {
+        margin-left: -200px;
     }
 }
 @media screen and (max-width: 425px) {

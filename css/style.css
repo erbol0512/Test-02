@@ -499,6 +499,9 @@ body {
     .col-lg-4 {
         margin-left: -200px;
     }
+    .article-vertical {
+        display: none;
+    }
 }
 @media screen and (max-width: 425px) {
     .top-foot {
